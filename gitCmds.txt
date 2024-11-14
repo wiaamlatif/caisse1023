@@ -1,0 +1,21 @@
+Aller à Git Bash ouvrir en tant qu'administrateur .
+Aller dans le repertoire à exporter 
+git init
+git add .
+git commit -m "Add existing project files to Git"
+
+ Aller sur le site gitHub -> code -> copier url:
+ https://github.com/wiaamlatif/caisse.git
+
+git remote add origin https://github.com/cameronmcnz/example-website.git
+git push -u -f origin master
+
+
+git status : lecture de l'etat des fichiersgit 
+============
+Commandes Bash:
+pwd -> Chemin du Directory Courant .
+ls  -> lecture du centenu du dirctory courant
+echo "Bonjour" >> text4.txt
+less text4.txt Lecture du fichier
+q : pour quittergit
