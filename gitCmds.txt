@@ -4,11 +4,19 @@ git init
 git add .
 git commit -m "Add existing project files to Git"
 
- Aller sur le site gitHub -> code -> copier url:
+ Aller sur le site gitHub -> code -> https -> copier url:
  https://github.com/wiaamlatif/caisse.git
 
-git remote add origin https://github.com/cameronmcnz/example-website.git
+git remote add origin https://github.com/wiaamlatif/caisse.git
 git push -u -f origin master
+
+Aller sur code
+Clicker sur main
+les files importés sont visibles ...!
+
+
+
+
 
 
 git status : lecture de l'etat des fichiersgit 
@@ -18,4 +26,4 @@ pwd -> Chemin du Directory Courant .
 ls  -> lecture du centenu du dirctory courant
 echo "Bonjour" >> text4.txt
 less text4.txt Lecture du fichier
-q : pour quittergit
+q : pour quitter editeur git
